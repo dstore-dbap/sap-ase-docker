@@ -1,0 +1,16 @@
+
+SYBASE
+	master tcp ether 0.0.0.0 5000
+	master tcp ether 0000:0000:0000:0000:0000:0000:0000:0000 5000
+	query tcp ether 127.0.0.1 5000
+
+SYB_BACKUP
+	master tcp ether 0.0.0.0 5002
+	master tcp ether 0000:0000:0000:0000:0000:0000:0000:0000 5002
+	query tcp ether 127.0.0.1 5002
+
+SYBASE_XP
+	master tcp ether 0.0.0.0 5003
+	master tcp ether 0000:0000:0000:0000:0000:0000:0000:0000 5003
+	query tcp ether 127.0.0.1 5003
+
